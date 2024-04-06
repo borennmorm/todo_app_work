@@ -6,7 +6,7 @@ Welcome to my Flutter Todo App! This project is designed to showcase essential F
 
 For a live demonstration of the app and its features, check out the YouTube link below. It's a great way to see the app in action and get a feel for the user interface and functionality.
 
-[![Flutter Todo App Demo](https://img.youtube.com/vi/mTg5L6271uc/0.jpg)](https://youtu.be/mTg5L6271uc?si=lBV4R_rBd87QZTfC)
+https://www.youtube.com/watch?v=blanqhIDcq4
 
 ## ✨ Features
 
