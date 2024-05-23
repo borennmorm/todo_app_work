@@ -56,76 +56,58 @@ class AboutView extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 8),
-            const Row(
-              children: [
-                Icon(Icons.person),
-                SizedBox(width: 8),
-                Text(
-                  'Morm Borenn',
-                  style: TextStyle(
-                    fontSize: 18,
-                  ),
-                ),
-              ],
+            _buildInfoCard(
+              context,
+              icon: Icons.person,
+              text: 'Morm Borenn',
+              url: '',
             ),
             const SizedBox(height: 4),
-            const Row(
-              children: [
-                Icon(Icons.email),
-                SizedBox(width: 8),
-                Text(
-                  'borinmorm5@gmail.com',
-                  style: TextStyle(
-                    fontSize: 18,
-                    color: Colors.blue,
-                    decoration: TextDecoration.underline,
-                  ),
-                ),
-              ],
+            _buildInfoCard(
+              context,
+              icon: Icons.email,
+              text: 'borinmorm5@gmail.com',
+              url: 'mailto:borinmorm5@gmail.com',
             ),
             const SizedBox(height: 8),
-            const Row(
-              children: [
-                FaIcon(FontAwesomeIcons.telegram),
-                SizedBox(width: 8),
-                Text(
-                  '@borin_morm',
-                  style: TextStyle(
-                    fontSize: 18,
-                    color: Colors.blue,
-                    decoration: TextDecoration.underline,
-                  ),
-                ),
-              ],
+            _buildInfoCard(
+              context,
+              icon: FontAwesomeIcons.telegram,
+              text: '@borin_morm',
+              url: 'https://t.me/borin_morm',
             ),
             const SizedBox(height: 8),
-            const Row(
-              children: [
-                FaIcon(FontAwesomeIcons.github),
-                SizedBox(width: 8),
-                Text(
-                  'borinmorm21',
-                  style: TextStyle(
-                    fontSize: 18,
-                    color: Colors.blue,
-                    decoration: TextDecoration.underline,
-                  ),
-                ),
-              ],
+            _buildInfoCard(
+              context,
+              icon: FontAwesomeIcons.github,
+              text: 'borinmorm21',
+              url: 'https://github.com/borinmorm21',
             ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          _launchURL('https://github.com/borinmorm21/todo_app_work');
-        },
-        tooltip: 'Github',
-        backgroundColor: Colors.white,
-        shape: const CircleBorder(),
-        child: const Icon(
-          FontAwesomeIcons.github,
-          color: Colors.black,
+    );
+  }
+
+  Widget _buildInfoCard(BuildContext context,
+      {required IconData icon, required String text, required String url}) {
+    return Card(
+      child: InkWell(
+        onTap: () => _launchURL(url),
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Row(
+            children: [
+              Icon(icon),
+              const SizedBox(width: 8),
+              Text(
+                text,
+                style: const TextStyle(
+                  fontSize: 18,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
