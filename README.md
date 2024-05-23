@@ -1,62 +1,30 @@
-# Flutter Todo App 📝
+# Simple To-Do List App
 
-Welcome to my Flutter Todo App! This project is designed to showcase essential Flutter development skills such as state management, handling user input, and dynamically updating the UI. It's a practical tool that demonstrates how to create, manage, and search for tasks in a todo list. This README will guide you through the features of the app, how to run it, contribute to it, and where to find more of my work.
+Welcome to the Simple To-Do List App, an intuitive and engaging app designed to help you manage your tasks efficiently. This app provides a straightforward way to organize your daily activities and boost your productivity.
 
-## 🚀 Demo
+## Features
 
-For a live demonstration of the app and its features, check out the YouTube link below. It's a great way to see the app in action and get a feel for the user interface and functionality.
+- **Task Management**: Add, update, and delete tasks with ease. Perfect for keeping track of your to-do list.
+- **Simple UI**: Enjoy a sleek and user-friendly interface, making it easy to manage your tasks.
+- **Task Prioritization**: Organize your tasks by priority, ensuring you focus on what matters most.
 
-https://www.youtube.com/watch?v=blanqhIDcq4
+## Screenshot
 
-## ✨ Features
+<img src="https://drive.google.com/uc?export=view&id=1RIuphq1j5lbIPMB5gtOPmpI_24fZ7hXS" alt="Simple To-Do List Demo" width="600">
 
-- **Simple and Intuitive UI:** Designed to offer a seamless user experience.
-- **Create Tasks:** Easily add new tasks to your list.
-- **Check Off Tasks:** Mark tasks as completed with a simple tap.
-- **Delete Tasks:** Remove tasks from your list.
-- **Search Functionality:** Quickly find tasks in your list.
-- **Responsive Design:** Looks great on both tablets and phones.
+## Getting Started
 
-## 📥 Installation
+1. **Open the App**: Launch the Simple To-Do List App on your device.
+2. **Add a Task**: Enter your task details into the input field.
+3. **Manage Your Tasks**: View, edit, and delete tasks as needed to keep your to-do list up-to-date.
+4. **Stay Organized**: Use task prioritization to focus on high-priority items.
 
-Follow these steps to get the app running on your device:
+## Why Simple To-Do List App?
 
-1. **Clone the repository**
+Whether you're a busy professional or a student, the Simple To-Do List App offers an effective way to stay organized and manage your tasks. With its easy-to-use interface and practical features, it’s an app that provides productivity and efficiency for users of all ages.
 
-   ```sh
-   git clone https://github.com/borinmorm21/todo_app_work.git
-   ```
+Download the Simple To-Do List App today and take control of your tasks!
 
-2. **Navigate to the project directory**
-
-   ```sh
-   cd todo_app_work
-   ```
-
-3. **Run the app**
-
-   Ensure Flutter is installed and set up on your machine. Then, execute:
-
-   ```sh
-   flutter run
-   ```
-
-## 🤝 Contributing
-
-The open-source community thrives on contributions, and yours are **highly valued**.
-
-To contribute, please:
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 🔗 Links
-
-- **Telegram Channel:** For the latest updates on my projects and early access to content, join my Telegram channel [here](https://t.me/iambenro).
-
----
-
-I'm excited to share my Flutter learning journey with you through this project. Let's connect and grow together in the Flutter community!
+<a href="https://drive.google.com/file/d/1-xJTD5ZkcUPukCYSs5QGHLP_Dmndp8Mu/view?usp=sharing" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Download%20APK-Click%20Here-brightgreen?style=for-the-badge" alt="Download APK">
+</a>
