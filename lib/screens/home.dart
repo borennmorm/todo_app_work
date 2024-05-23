@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:todo_app_2/constants/color.dart';
 import 'package:todo_app_2/model/model.dart';
 import 'package:todo_app_2/widgets/todo_item.dart';
+import 'package:flutter/cupertino.dart';
+
+import 'about.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -162,24 +165,16 @@ class _HomePageState extends State<HomePage> {
   AppBar _buildAppBar() {
     return AppBar(
       backgroundColor: tdBGColor,
-      title: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          const Icon(
-            Icons.menu,
-            color: tdBlack,
-            size: 30,
-          ),
-          SizedBox(
-            height: 40,
-            width: 40,
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(20),
-              child: Image.asset('assets/images/avatar.png'),
-            ),
-          )
-        ],
-      ),
+      title: const Text("Todo List"),
+      actions: [
+        IconButton(
+          icon: const Icon(CupertinoIcons.question_circle),
+          onPressed: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const AboutView()));
+          },
+        ),
+      ],
     );
   }
 }
