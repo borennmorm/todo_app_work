@@ -19,12 +19,8 @@ Welcome to the Simple To-Do List App, an intuitive and engaging app designed to 
 3. **Manage Your Tasks**: View, edit, and delete tasks as needed to keep your to-do list up-to-date.
 4. **Stay Organized**: Use task prioritization to focus on high-priority items.
 
-## Why Simple To-Do List App?
+Download the Simple BMI Calculator App today and check your weight condition!
 
-Whether you're a busy professional or a student, the Simple To-Do List App offers an effective way to stay organized and manage your tasks. With its easy-to-use interface and practical features, it’s an app that provides productivity and efficiency for users of all ages.
-
-Download the Simple To-Do List App today and take control of your tasks!
-
-<a href="https://drive.google.com/file/d/1-xJTD5ZkcUPukCYSs5QGHLP_Dmndp8Mu/view?usp=sharing" style="text-decoration: none;">
+<a href="https://drive.google.com/file/d/1MweWKwfNpHwLjMRyGoquatZ6IjXBx5sK/view" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Download%20APK-Click%20Here-brightgreen?style=for-the-badge" alt="Download APK">
 </a>
