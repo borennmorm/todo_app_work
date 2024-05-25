@@ -1,16 +1,16 @@
-# BMI Calculator
+# Simple To-Do List App
 
-This is a simple bmi calculator designed to help you know your weight condition by calculate the bmi. It provides a user-friendly interface click and read, making it easier to organize your daily activities and stay productive.
+Welcome to the Simple To-Do List App, an intuitive and engaging app designed to help you manage your tasks efficiently. This app provides a straightforward way to organize your daily activities and boost your productivity.
 
 ## Features
 
-- **Input Value**: Input height(m) & weight (kg).
+- **Task Management**: Add, update, and delete tasks with ease. Perfect for keeping track of your to-do list.
 - **Simple UI**: Enjoy a sleek and user-friendly interface, making it easy to manage your tasks.
 - **Task Prioritization**: Organize your tasks by priority, ensuring you focus on what matters most.
 
 ## Screenshot
 
-<img src="https://drive.google.com/uc?export=view&id=1XDLos23FCoIjn8DKKzeMZgr_RFNIgXno" alt="Simple To-Do List Demo" width="600">
+<img src="https://drive.google.com/uc?export=view&id=1RIuphq1j5lbIPMB5gtOPmpI_24fZ7hXS" alt="Simple To-Do List Demo" width="600">
 
 ## Getting Started
 
